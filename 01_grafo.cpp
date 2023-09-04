@@ -18,8 +18,7 @@ class Graph {
     
     int get_V() { return V; }                          // Informa nro de vértices deste grafo
     
-    int get_E() { return E; }    
-                          // Informa nro de arestas deste grafo
+    int get_E() { return E; }                          // Informa nro de arestas deste grafo
     vector<int> get_adjs(int u) { return adjs[u]; }    // Informa os vértices adjacentes a u dado
     
     void imprime() {
